@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+.nav-icon {
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
