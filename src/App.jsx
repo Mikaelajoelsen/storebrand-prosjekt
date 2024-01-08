@@ -4,7 +4,10 @@ import Header from "./components/header";
 function App() {
   return (
     <>
-      <Header></Header>
+      <div>
+        <Header />
+      </div>
+      <div></div>
     </>
   );
 }
