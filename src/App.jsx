@@ -1,7 +1,8 @@
 import "./App.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Card from "./components/card-section";
+import Card from "./components/top-section";
+import Cards from "./components/card-section";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div>
         <Card />
+      </div>
+      <div>
+        <Cards />
       </div>
     </>
   );
