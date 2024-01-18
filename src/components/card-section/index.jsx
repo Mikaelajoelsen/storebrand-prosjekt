@@ -2,7 +2,7 @@ import { VscArrowRight } from "react-icons/vsc";
 
 export default function Cards() {
   return (
-    <div className="flex flex-col items-center justify-center mt-24 bg-red-50 md:max-w-screen">
+    <div className="flex flex-col items-center justify-center mt-24 bg-red-50 md:max-w-screen lg:flex-wrap">
       <div className="flex flex-col items-center m-8 md:flex-row">
         <div className="flex flex-col justify-start p-4 m-12 space-y-4 md:flex-row md:space-x-4">
           <div className="flex flex-wrap w-full p-20 space-y-4 md:space-y-3 md:space-x-4">
@@ -41,24 +41,25 @@ export default function Cards() {
         />
       </div>
 
-      <div className="grid grid-cols-1 gap-20 p-16 md:grid-cols-2 lg:grid-cols-2">
-        <div className="flex flex-row justify-center p-12 bg-red-100 rounded-lg shadow-md w-4/4 h-96">
-          <div className="mr-4">
-            <img className="w-72" src="bil.svg"></img>
+      <div className="grid grid-cols-1 gap-8 p-4 md:grid-cols-2 lg:grid-cols-2">
+        {/* Card 1 */}
+        <div className="flex flex-col items-center justify-center p-6 bg-red-100 rounded-lg shadow-md md:flex-row md:p-12 lg:h-96">
+          <div className="mb-4 md:w-72 md:mr-4 md:mb-0">
+            <img className="w-full" src="bil.svg" alt="Car"></img>
           </div>
-          <div className="flex flex-col">
-            <h5 className="mb-2 text-4xl font-bold leading-tight text-red-900 dark:text-red-900">
+          <div className="flex flex-col items-center w-full md:items-start">
+            <h5 className="mb-2 text-2xl font-bold leading-tight text-center text-red-900 md:text-4xl dark:text-red-900 md:text-left">
               Bil Forsikring
             </h5>
-            <p className="mb-4 text-xl text-red-900 dark:text-red-900">
+            <p className="mb-4 text-sm text-center text-red-900 md:text-xl dark:text-red-900 md:text-left">
               Med Bilforsikring super får du rask opptjening av toppbonus, maks
               10 prosent bonustap ved skade, og parkeringsskade uten bonustap.
             </p>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full">
               <button
                 type="button"
-                className="inline-block w-1/2 rounded-full  px-6 pb-2 pt-2.5 text-xs font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
               >
                 Sjekk din pris
               </button>
@@ -66,23 +67,24 @@ export default function Cards() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center p-12 bg-red-100 rounded-lg shadow-md w-4/4 h-96">
-          <div className="mr-4">
-            <img className="w-72" src="bil.svg"></img>
+        {/* Card 2 */}
+        <div className="flex flex-col items-center justify-center p-6 bg-red-100 rounded-lg shadow-md md:flex-row md:p-12 lg:h-96">
+          <div className="mb-4 md:w-72 md:mr-4 md:mb-0">
+            <img className="w-full" src="bil.svg" alt="Car"></img>
           </div>
-          <div className="flex flex-col">
-            <h5 className="mb-2 text-4xl font-bold leading-tight text-red-900 dark:text-red-900">
+          <div className="flex flex-col items-center w-full md:items-start">
+            <h5 className="mb-2 text-2xl font-bold leading-tight text-center text-red-900 md:text-4xl dark:text-red-900 md:text-left">
               Bil Forsikring
             </h5>
-            <p className="mb-4 text-xl text-red-900 dark:text-red-900">
+            <p className="mb-4 text-sm text-center text-red-900 md:text-xl dark:text-red-900 md:text-left">
               Med Bilforsikring super får du rask opptjening av toppbonus, maks
               10 prosent bonustap ved skade, og parkeringsskade uten bonustap.
             </p>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full">
               <button
                 type="button"
-                className="inline-block w-1/2 rounded-full  px-6 pb-2 pt-2.5 text-xs font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
               >
                 Sjekk din pris
               </button>
@@ -90,23 +92,24 @@ export default function Cards() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center p-12 bg-red-100 rounded-lg shadow-md w-4/4 h-96">
-          <div className="mr-4">
-            <img className="w-72" src="bil.svg"></img>
+        {/* Card 3 */}
+        <div className="flex flex-col items-center justify-center p-6 bg-red-100 rounded-lg shadow-md md:flex-row md:p-12 lg:h-96">
+          <div className="mb-4 md:w-72 md:mr-4 md:mb-0">
+            <img className="w-full" src="bil.svg" alt="Car"></img>
           </div>
-          <div className="flex flex-col">
-            <h5 className="mb-2 text-4xl font-bold leading-tight text-red-900 dark:text-red-900">
+          <div className="flex flex-col items-center w-full md:items-start">
+            <h5 className="mb-2 text-2xl font-bold leading-tight text-center text-red-900 md:text-4xl dark:text-red-900 md:text-left">
               Bil Forsikring
             </h5>
-            <p className="mb-4 text-xl text-red-900 dark:text-red-900">
+            <p className="mb-4 text-sm text-center text-red-900 md:text-xl dark:text-red-900 md:text-left">
               Med Bilforsikring super får du rask opptjening av toppbonus, maks
               10 prosent bonustap ved skade, og parkeringsskade uten bonustap.
             </p>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full">
               <button
                 type="button"
-                className="inline-block w-1/2 rounded-full  px-6 pb-2 pt-2.5 text-xs font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
               >
                 Sjekk din pris
               </button>
@@ -114,23 +117,24 @@ export default function Cards() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center p-12 bg-red-100 rounded-lg shadow-md w-4/4 h-96">
-          <div className="mr-4">
-            <img className="w-72" src="bil.svg"></img>
+        {/* Card 4 */}
+        <div className="flex flex-col items-center justify-center p-6 bg-red-100 rounded-lg shadow-md md:flex-row md:p-12 lg:h-96">
+          <div className="mb-4 md:w-72 md:mr-4 md:mb-0">
+            <img className="w-full" src="bil.svg" alt="Car"></img>
           </div>
-          <div className="flex flex-col">
-            <h5 className="mb-2 text-4xl font-bold leading-tight text-red-900 dark:text-red-900">
+          <div className="flex flex-col items-center w-full md:items-start">
+            <h5 className="mb-2 text-2xl font-bold leading-tight text-center text-red-900 md:text-4xl dark:text-red-900 md:text-left">
               Bil Forsikring
             </h5>
-            <p className="mb-4 text-xl text-red-900 dark:text-red-900">
+            <p className="mb-4 text-sm text-center text-red-900 md:text-xl dark:text-red-900 md:text-left">
               Med Bilforsikring super får du rask opptjening av toppbonus, maks
               10 prosent bonustap ved skade, og parkeringsskade uten bonustap.
             </p>
 
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full">
               <button
                 type="button"
-                className="inline-block w-1/2 rounded-full  px-6 pb-2 pt-2.5 text-xs font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
               >
                 Sjekk din pris
               </button>
