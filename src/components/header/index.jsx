@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon, SearchIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Privat", href: "#", current: true },
@@ -54,9 +54,7 @@ export default function Header() {
                 </div>
               </div>
               <div className="flex items-center ml-4">
-                <button type="button" className="btn-search sm:hidden">
-                  <SearchIcon className="w-6 h-6 text-gray-600" />
-                </button>
+                <button type="button" className="btn-search sm:hidden"></button>
                 <input
                   type="text"
                   placeholder="Søk....."
