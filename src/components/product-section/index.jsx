@@ -3,7 +3,7 @@ import { VscArrowRight } from "react-icons/vsc";
 export default function Product() {
   return (
     <>
-      <h1 className="flex m-20 my-10 text-3xl font-bold sm:text-4xl md:text-3xl lg:text-3xl text-red-950 lg:flex-wrap">
+      <h1 className="flex m-20 my-10 text-2xl font-bold sm:text-4xl md:text-3xl lg:text-3xl text-red-950 lg:flex-wrap">
         Produkter og tjenester
       </h1>
       <div className="flex flex-col justify-center w-full p-5 text-xl lg:flex-row gap-36">
