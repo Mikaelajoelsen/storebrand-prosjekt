@@ -22,10 +22,10 @@ export default function Cards() {
             <button className="flex items-center justify-center w-full text-red-800 border-2 border-red-800 rounded-full font-l md:w-36 h-9">
               Pensjon
             </button>
-            <button className="flex items-center justify-center w-full text-red-800 border-2 border-red-800 rounded-full font-l md:w-48 h-9">
+            <button className="flex items-center justify-center w-full text-red-800 border-2 border-red-800 rounded-full lg:h-14 font-l md:w-52">
               Sparing og investering
             </button>
-            <button className="flex items-center justify-center w-full text-red-800 border-2 border-red-800 rounded-full font-l md:w-36 h-9">
+            <button className="flex items-center justify-center w-full text-red-800 border-2 border-red-800 rounded-full font-l md:w-52 lg:h-14">
               Last ned Kron
             </button>
             <button className="flex items-center justify-center w-full text-red-900 rounded-none font-l md:w-48 h-9">
@@ -35,7 +35,7 @@ export default function Cards() {
           </div>
         </div>
         <img
-          className="object-cover w-full h-80 md:h-auto md:w-80 md:rounded-none md:rounded-l-lg"
+          className="object-cover w-1/2 h-40 md:h-auto md:w-64 md:rounded-none md:rounded-l-lg"
           src="holde-lyspære.svg"
           alt=""
         />
@@ -59,7 +59,7 @@ export default function Cards() {
             <div className="flex flex-col w-full">
               <button
                 type="button"
-                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-900"
               >
                 Sjekk din pris
               </button>
@@ -92,7 +92,7 @@ export default function Cards() {
             <div className="flex flex-col w-full">
               <button
                 type="button"
-                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-900"
               >
                 Sjekk din pris
               </button>
@@ -117,7 +117,7 @@ export default function Cards() {
             <div className="flex flex-col w-full">
               <button
                 type="button"
-                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-900"
               >
                 Sjekk din pris
               </button>
@@ -142,7 +142,7 @@ export default function Cards() {
             <div className="flex flex-col w-full">
               <button
                 type="button"
-                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-800 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                className="inline-block w-full rounded-full px-6 pb-2 pt-2.5 text-xs md:text-sm font-bold uppercase leading-normal text-red-900 border-2 border-red-900"
               >
                 Sjekk din pris
               </button>
