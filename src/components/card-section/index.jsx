@@ -103,15 +103,23 @@ export default function Cards() {
         {/* Card 3 */}
         <div className="flex flex-col items-center justify-center p-6 bg-red-100 rounded-lg shadow-md md:flex-row md:p-12 lg:h-96">
           <div className="mb-4 md:w-36 md:mr-4 md:mb-0">
-            <img className="w-full" src="bil.svg" alt="Car"></img>
+            <img className="w-full" src="money-padlock.svg" alt="Money"></img>
           </div>
           <div className="flex flex-col items-center w-full md:items-start">
             <h5 className="mb-2 text-2xl font-bold leading-tight text-center text-red-900 md:text-2xl dark:text-red-900 md:text-left">
-              Bil Forsikring
+              Fastrente innskudd - 5% sparerente
             </h5>
             <p className="mb-4 text-sm text-center text-red-900 md:text-xl dark:text-red-900 md:text-left">
-              Med Bilforsikring super får du rask opptjening av toppbonus, maks
-              10 prosent bonustap ved skade, og parkeringsskade uten bonustap.
+              Kun 6 måneders binding
+            </p>
+            <p className="mb-4 text-sm text-center text-red-900 md:text-xl dark:text-red-900 md:text-left">
+              - Trygg sparing i Bank
+            </p>
+            <p className="mb-4 text-sm text-center text-red-900 md:text-xl dark:text-red-900 md:text-left">
+              - Ingen minstebeløp
+            </p>
+            <p className="mb-4 text-sm text-center text-red-900 md:text-xl dark:text-red-900 md:text-left">
+              - Innskuddet er bundet i 6 måneder fra opprettelse av sparingen
             </p>
 
             <div className="flex flex-col w-full">
