@@ -1,5 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import SearchSection from "../search-section";
 
 const navigation = [
   { name: "Privat", href: "#", current: true },
@@ -33,7 +34,8 @@ export default function Header() {
                   )}
                 </button>
               </div>
-              <div className="flex-grow hidden ml-6 sm:flex sm:items-center">
+
+              <div className="flex-grow hidden ml-6 sm:flex sm:items-center place-content-between">
                 <div className="flex space-x-4">
                   {navigation.map((item) => (
                     <a
@@ -43,7 +45,7 @@ export default function Header() {
                         item.current
                           ? "hover:bg-red-100 text-red-800 rounded-none hover:border-t-4 hover:border-red-900"
                           : "text-red-900 hover:bg-red-100 hover:text-red-900 rounded-none hover:border-t-4 hover:border-red-900",
-                        "rounded-md px-3 py-2 text-sm font-medium"
+                        "rounded-md px-3 py-2 text-m font-medium"
                       )}
                       aria-current={item.current ? "page" : undefined}
                     >
@@ -51,6 +53,10 @@ export default function Header() {
                     </a>
                   ))}
                 </div>
+
+                <section className="flex">
+                  <SearchSection />
+                </section>
               </div>
             </div>
           </div>
